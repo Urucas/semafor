@@ -15,3 +15,5 @@ log.warn("This is a warning");
 log.ok("This is success");
 log.log("This is sparta");
 ```
+
+<img src="https://raw.githubusercontent.com/Urucas/semafor/master/screen.png" />
