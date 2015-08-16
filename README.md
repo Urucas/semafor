@@ -1,5 +1,5 @@
 # semafor [![Build Status](https://travis-ci.org/Urucas/semafor.svg)](https://travis-ci.org/Urucas/semafor)
-A simple success, fail logger
+A simple and cute success, warn, fail logger for nodejs
 
 #Usage 
 ```bash
