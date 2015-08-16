@@ -4,7 +4,8 @@
   "description": "A simple success, fail logger",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "grunt build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/Urucas/semafor/issues"
   },
-  "homepage": "https://github.com/Urucas/semafor#readme"
+  "homepage": "https://github.com/Urucas/semafor#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
 }
