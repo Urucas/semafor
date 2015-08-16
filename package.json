@@ -1,0 +1,24 @@
+{
+  "name": "semafor",
+  "version": "0.0.1",
+  "description": "A simple success, fail logger",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/semafor.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "logger"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/semafor/issues"
+  },
+  "homepage": "https://github.com/Urucas/semafor#readme"
+}
